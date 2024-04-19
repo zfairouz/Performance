@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: { 
+                poppins : ["Poppins", "sans-serif"]
+            },
+
+            colors: {
+                black:"#3C3C3C",
+                darkblue: "#323F73",
+                bgray: "#95AFBA",
+                linear: "#EDEFF5",
+                gray: "#F0F0F0",
+                lightgray: "#F5F8FA",
+                red: "#FF416C",
+                red1: "#FF4B2B",
+                peach: "#FFD9CC",
+                green: "#23A9A1",
+                lightblue: "#CCFFFC",
+                darkred: "#E95829",
+                yellow: "#FFD888",
+                white: "#FFFFFF",
+            },
+          },
+        },
+      };
+    </script>
+</head>
+<body class=" font-poppins ">
+    <header>
+        <nav class="flex items-center justify-between px-7 lg:px-[151px] pt-8 lg:pt-12 " >
+            <h1 class="text-darkblue font-bold text-4 lg:text-[22px]">Performance</h1>
+            <div class="lg:flex lg:gap-x-[82px] lg:items-center hidden">
+                <a href="#" class="text-3 text-darkblue">Product</a>
+                <a href="#" class="text-3 text-darkblue">Academy</a>
+                <a href="#" class="text-3 text-darkblue">Careers</a>
+                <a href="#" class="text-3 text-darkblue">Blog</a>
+                <a href="#" class="text-3 text-darkblue">Signin</a>
+                <button class="text-3 text-white bg-darkblue py-2 px-6 rounded-md"><a href="#">Signup</a></button>
+            </div>
+            <button class="lg:hidden" >
+                <i class="ri-menu-line text-3xl font-bold text-darkblue"></i>
+            </button>
+        </nav>
+        <div class="lg:hidden">
+            <img src="images/Graphics.png" alt="pict1" class="w-full object-cover object-center relative top-[-45px]">
+        </div>
+    </header>
+
+    <main>
+        <!--Start of the section 1-->
+        <section class="px-[17px] lg:px-0 text-center lg:text-start relative top-[-80px] lg:static lg:flex lg:ml-[150px] lg:mt-[88px]">
+            <div class="lg:py-[56px]">
+                <h2 class="font-bold text-xl text-darkblue mb-[18px]">Your Next Performance <br> Management Platform</h2>
+                <p class="text-bgray mb-8 text-[13px] ">Fully Customizable performance <br> management platform that suits your <br> culture. not the other way around</p>
+                <div class="lg:flex">
+                    <button class="text-black py-[21px] mb-[34px] lg:mb-0 bg-lightgray px-12 rounded- text-[14px] lg:rounded-l-lg"><i class="ri-mail-line mr-6 "></i> Add your email address</button>
+                    <button class="bg-gradient-to-l from-red1 to-red text-white py-[19px] lg:py-[21px] px-[21px] text-[14px] lg:rounded-r-lg">Get Started for free</button>
+                </div>
+            </div>
+            <div class="hidden lg:block">
+                <img src="images/Hero Image.png" alt="Hero" class="w-full object-cover object-center relative right-[-265px]">
+            </div>
+        </section>
+        <!--Ending of the section 1-->
+        <!-- Image for the mobile -->
+        <div class="lg:hidden">
+            <img src="images/03 Logo mb.png" alt="logos" class="w-full object-cover object-center mb-20">
+        </div>
+        <!-- Image for the large device -->
+        <div class="hidden lg:block lg:mx-[150px]">
+            <img src="images/03 Logo.png" alt="logos" class="w-full object-cover object-center mt-6 mb-[162px]">
+        </div>
+        <!--Start of the section 2-->
+        <section class="px-[33px] lg:px-0">
+            <div class="lg:flex">
+                <div class="hidden lg:block">
+                    <img src="images/Product Graphics.png" alt="Image" class="hidden lg:block">
+                </div>
+                <div>
+                    <div class="px-[15px] text-center mb-[42px] lg:text-start lg:w-[430px] lg:ml-[35px] ">
+                        <h2 class="font-bold text-xl text-darkblue mb-[17px]">Meet Our Products</h2>
+                        <p class="text-bgray mb-8 ">Our Products work Togather seamlassly to form talent science. start with one or more. </p>
+                    </div>
+                    <div class="space-y-24 lg:space-y-0 mb-[65px] ">
+                        <div class="lg:flex lg:gap-[98px] lg:mb-40">
+                            <div class="hidden lg:block">
+                                <img src="images/Goal Management.png" alt="Image">
+                            </div> 
+                            <div class="text-center lg:text-start ">
+                                <div class="flex items-center gap-[10px] justify-center bg-peach rounded h-[28px] mb-[10px] mx-[89px] lg:mx-0 lg:w-[95px]">
+                                    <svg class="text-darkred" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M11 4V2H13V4H19C19.5523 4 20 4.44772 20 5V10C20 10.5523 19.5523 11 19 11H13V13H17C17.5523 13 18 13.4477 18 14V19C18 19.5523 17.5523 20 17 20H13V22H11V20H7C6.44772 20 6 19.5523 6 19V14C6 13.4477 6.44772 13 7 13H11V11H5C4.44772 11 4 10.5523 4 10V5C4 4.44772 4.44772 4 5 4H11Z"></path></svg>
+                                    <h3 class="text-3 text-darkred">Align</h3>
+                                </div>
+                                <h2 class="text-lg text-darkblue mb-[13px]">Goal Management</h2>
+                                <div class="border-b-4 border-yellow text-yellow mb-5 mx-[81px] lg:mx-0 lg:w-[91px]"></div>
+                                <p class="text-[13px] text-bgray text-start w-[254px] lg:w-[290px] lg:mb-6">Our Products work Togather seamlassly to form talent science. start with one or more. </p>
+                                <div class="flex justify-center lg:justify-start mb-6 lg:mb-12 gap-[27px]">
+                                    <h3 class="text-[13px] text-darkblue"><button class="bg-peach w-2 h-2 rounded-full mr-[13px]"></button> Daily Track</h3>
+                                    <h3 class="text-[13px] text-darkblue"><button class="bg-peach w-2 h-2 rounded-full mr-[13px]"></button>Road Map</h3>
+                                </div>
+                                <button class="bg-yellow py-2 px-4 text-darkblue">Learn more</button>
+                            </div>
+                        </div>    
+        
+                        <div class="lg:flex lg:mb-12 ">
+                            <div class="text-center lg:text-start">
+                                <div class="flex items-center gap-[10px] justify-center bg-lightblue rounded h-[28px] mb-[10px] mx-[85px] lg:mx-0 lg:w-[95px]">
+                                    <svg class="text-green" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M17.0001 12C17.5524 12 18.0001 12.4477 18.0001 13V22H16.0001V14H8.00015V22H6.00015V13C6.00015 12.4477 6.44786 12 7.00015 12H17.0001ZM12.0001 16V18H10.0001V16H12.0001ZM12.0001 6C14.3491 6 16.3827 7.34978 17.3678 9.31602L15.5787 10.2108C14.922 8.89991 13.5662 8 12.0001 8C10.4341 8 9.07833 8.89991 8.42163 10.2108L6.63247 9.31602C7.61755 7.34978 9.65122 6 12.0001 6ZM12.0001 2C15.9153 2 19.3049 4.24991 20.9466 7.5273L19.1576 8.42242C17.8443 5.80019 15.1325 4 12.0001 4C8.86783 4 6.15596 5.80019 4.84271 8.42242L3.05371 7.5273C4.69541 4.24991 8.08503 2 12.0001 2Z"></path></svg>
+                                    <h3 class="text-3 text-green">Remote</h3>
+                                </div>
+                                <h2 class="text-lg text-darkblue mb-[13px]">Remote Tool</h2>
+                                <div class="border-b-4 border-yellow text-yellow mb-5 mx-[81px] lg:mx-0 lg:w-[91px]"></div>
+                                <p class="text-[13px] text-bgray text-start w-[254px] lg:w-[290px] lg:mb-6">Our Products work Togather seamlassly to form talent science. start with one or more. </p>
+                                <div class="flex justify-center lg:justify-start mb-6 lg:mb-12 gap-[27px]">
+                                    <h3 class="text-[13px] text-darkblue"><button class="bg-peach w-2 h-2 rounded-full mr-[13px]"></button>Remote Access</h3>
+                                    <h3 class="text-[13px] text-darkblue"><button class="bg-peach w-2 h-2 rounded-full mr-[13px]"></button>Work Anytime</h3>
+                                </div>
+                                <button class="bg-yellow py-2 px-4 text-darkblue">Learn more</button>
+                            </div>
+        
+                            <div class="hidden lg:block">
+                                <img src="images/Remote Tool Graphics.png" alt="Image">
+                            </div> 
+                        </div>
+        
+                        <div class="lg:flex lg:gap-[71px]">
+                            <div class="hidden lg:block">
+                                <img src="images/Graphics 04.png" alt="Image">
+                            </div> 
+                            <div class="text-center lg:text-start ">
+                                <div class="flex items-center gap-[10px] justify-center bg-peach rounded h-[28px] mb-[10px] mx-[89px] lg:mx-0 lg:w-[95px]">
+                                    <svg class="text-darkred" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M11 4V2H13V4H19C19.5523 4 20 4.44772 20 5V10C20 10.5523 19.5523 11 19 11H13V13H17C17.5523 13 18 13.4477 18 14V19C18 19.5523 17.5523 20 17 20H13V22H11V20H7C6.44772 20 6 19.5523 6 19V14C6 13.4477 6.44772 13 7 13H11V11H5C4.44772 11 4 10.5523 4 10V5C4 4.44772 4.44772 4 5 4H11Z"></path></svg>
+                                    <h3 class="text-3 text-darkred">Review</h3>
+                                </div>
+                                <h2 class="text-lg text-darkblue mb-[13px]">Performance Review</h2>
+                                <div class="border-b-4 border-yellow text-yellow mb-5 mx-[81px] lg:mx-0 lg:w-[91px]"></div>
+                                <p class="text-[13px] text-bgray text-start w-[254px] lg:w-[290px] lg:mb-6">Our Products work Togather seamlassly to form talent science. start with one or more. </p>
+                                <div class="flex justify-center lg:justify-start mb-6 lg:mb-12 gap-[27px]">
+                                    <h3 class="text-[13px] text-darkblue"><button class="bg-peach w-2 h-2 rounded-full mr-[13px]"></button> Track Performance</h3>
+                                    <h3 class="text-[13px] text-darkblue"><button class="bg-peach w-2 h-2 rounded-full mr-[13px]"></button>Status Review</h3>
+                                </div>
+                                <button class="bg-yellow py-2 px-4 text-darkblue">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Ending of the section 2-->
+        <!--Start of the section 3-->
+        <section class="hidden lg:block bg-gray rounded-xl lg:flex lg:mx-[151px] lg:mb-[240px]">
+            <div class="ml-[96px] mt-[60px] mb-[98px] lg:w-[458px]">
+                <h2 class="font-bold text-[32px] text-darkblue mb-[10px]">People use our Software and counting.</h2>
+                <p class="text-[18px] text-bgray mb-8 w-[399px]">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                <div class="space-x-5 ">
+                    <button class="bg-white w-[90px] h-[100px] rounded-xl text-darkblue font-bold text-[72px]">1</button>
+                    <button class="bg-white w-[90px] h-[100px] rounded-xl text-darkblue font-bold text-[72px]">2</button>
+                    <button class="bg-white w-[90px] h-[100px] rounded-xl text-darkblue font-bold text-[72px]">1</button>
+                    <button class="bg-white w-[90px] h-[100px] rounded-xl text-darkblue font-bold text-[72px]">7</button>
+                </div>
+            </div>
+            <div class="mt-[86px] mr-3 mb-[62px]">
+                <img src="images/Graphics 05.png" alt="image" class="w-full object-cover object-center">
+            </div>
+        </section>
+        <!--Ending of the section 3-->
+        <!--Start of the section 4-->
+        <section class="hidden lg:block ml-[90px] mb-[240px]">
+            <div class="ml-[276px] mb-[44px]">
+                <h2 class="font-bold text-darkblue text-[32px] mb-[17px]">Frequently Asked Questions</h2>
+                <p class="text-4 text-bgray mb-[32px] ">Fully Customizable performance management <br> platform that suits your culture. not the other way <br> around</p>
+            </div>
+            <div class="flex gap-[52px] ml-[71px]">
+                <div>
+                    <ul class="space-y-[32px]">
+                        <li class="text-4 text-green bg-white rounded-xl w-[147px] py-4 pl-4 shadow-md"> <i class="ri-instance-line text-green "></i> Products</li>
+                        <li class="text-4 text-darkblue ml-4"><i class="ri-notification-3-fill text-darkblue"></i> Subscription</li>
+                        <li class="text-4 text-darkblue ml-4"><i class="ri-user-fill text-darkblue"></i> Customer</li>
+                        <li class="text-4 text-darkblue ml-4"><i class="ri-star-fill text-darkblue"></i> Data Planas</li>
+                    </ul>
+                </div>
+                <div class="space-y-[38px]">
+                    <div class="h-[95px] border-l-4 border-yellow "></div>
+                    <div class="h-[95px] border-l-4 border-yellow "></div>
+                    <div class="h-[95px] border-l-4 border-yellow "></div>
+                </div>
+                <div>
+                    <div class="space-y-10">
+                        <div>
+                            <p class="text-4 text-darkblue mb-4">Customizable performance management platform</p>
+                            <p class="text-4 text-bgray w-[569px]">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                        </div>
+                        <div>
+                            <p class="text-4 text-darkblue mb-4">Customizable performance management?</p>
+                            <p class="text-4 text-bgray w-[569px]">Fully Customizable performance management platform that suits not the other way around Fully Customizable </p>
+                        </div>
+                        <div>
+                            <p class="text-4 text-darkblue mb-4">Customizable performance management platform</p>
+                            <p class="text-4 text-bgray w-[569px]">performance management platform that suits your culture. not the other way around Fully Customizable performance management platform that </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-[-169px] ml-[80px]">
+                    <img src="images/Graphics 07.png" alt="image" class="w-full object-cover object-center">
+                </div>
+            </div>
+
+
+        </section>
+        <!--Ending of the section 4 -->
+        <!--Start of the section 5-->
+        <section class="hidden lg:block bg-gray mx-[151px] mb-[203px] rounded-lg">
+            <div class="pt-[96px] mb-[23px]">
+                <div class="flex items-center justify-center gap-[10px] bg-peach rounded h-[28px] mb-4 ml-[100px] w-[200px] ">
+                    <svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.76915 4.99721C2.76915 3.34679 2.76915 3.07156 4.15323 3.07156V0C0.923881 0 0 2.15642 0 5.95979V11H6V5.95979H2.76915V4.99721Z" fill="#E95829"/>
+                        <path d="M9.77003 5.95979V4.99721C9.77003 3.34679 9.77003 3.07156 11.1548 3.07156V0C7.92384 0 7 2.15642 7 5.95979V11H13V5.95979H9.77003Z" fill="#E95829"/>
+                        </svg>
+                    <h3 class="text-3 text-darkred">What people say’s</h3>
+                </div>
+                <h2 class="font-bold text-[32px] text-darkblue ml-[100px] w-[942px]">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</h2>
+            </div>
+            <div class="border-b-[1px] border-[#D8D8D8] text-[#D8D8D8] w-full"></div>
+            <div class=" flex">
+                <div class=" w-[50%] flex-grow pt-[60px] bg-gradient-to-r from-linear to-white rounded-bl-lg">  <!-- I use flex-grow to make this two divs take up equal space -->
+                    <p class=" text-darkblue font-bold text-[100px] ml-[136px]">50%</p>
+                    <h3 class="font-bold text-[32px] text-darkblue  ml-[136px] ">Boost in Production</h3>
+                </div>
+                <div class="bg-yellow flex-grow py-[75px] pl-[46px] bg-gradient-to-r from-linear to-[#FAFAFA] rounded-br-lg">
+                    <img src="images/Graphics 08.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!--Ending of the section 5-->
+        <!--Start of the section 6-->
+        <section class="hidden lg:block text-start mx-[150px] mb-[230px]">
+            <div class="flex justify-between">
+                <div class="pt-[66px]">
+                    <h2 class="font-bold text-xl text-darkblue mb-[10px]">Download Performance <br> Management book for free.</h2>
+                    <p class="text-bgray mb-12 text-[13px]">Fully Customizable performance <br> management platform that suits your <br> culture. not the other way around</p>
+                    <div class="flex mb-[36px]">
+                        <button class="text-black py-[21px] mb-[34px] lg:mb-0 bg-lightgray px-12 text-[14px] rounded-l-lg"><i class="ri-mail-line mr-6 "></i> Add your email address</button>
+                        <button class="bg-gradient-to-l from-red1 to-red text-white py-[19px] lg:py-[21px] px-[21px] text-[14px] rounded-r-lg">Get Started for free</button>
+                    </div>
+                    <p class="text-bgray mb-12 text-[13px]">Everyone gets something special. Sign up to be <br> everyone. :P</p>
+                </div>
+                <div>
+                    <img src="images/Graphics 09.png" alt="image" class="w-full object-cover object-center">
+                </div>
+            </div>    
+        </section>
+        <!--Ending of the section 6-->
+        <!--Start of the section 7-->
+        <section class="hidden lg:block mb-[469px]">
+            <div class="text-center">
+                <h2 class="font-bold text-xl text-darkblue mb-[10px]">Blog and Podcast</h2>
+                <p class="text-bgray mb-12 text-[13px]"> Fully Customizable performance management platform <br> that suits your culture. not the other way <br> around</p>        
+                <i class="ri-arrow-drop-left-line text-darkblue border-2 border-[#979797] p-[25px] "></i>
+                <i class="ri-arrow-drop-right-line text-darkblue border-2 border-[#979797] p-[25px]"></i>
+            
+            <div class="flex justify-between ml-[151px]">
+                <div class="w-[355px]">
+                    <div class="h-[384px]">
+                        <div class="h-[50%] flex">
+                            <div class="bg-green w-[50%]"></div>
+                            <div class="bg-gradient-to-t from-green to-[#49D4CF] w-[50%]"></div>
+                        </div>
+                        <div class="bg-gradient-to-r from-green to-[#49D4CF] h-[50%] "></div>
+                    </div>
+                    <div class="bg-linear text-start px-[29px] py-[32px]">
+                        <h2 class="text-4 text-darkblue mb-[9px]">Customizable performance management platform</h2>
+                        <p class="text-4 text-bgray">Fully Customizable performance management platform that suits...</p>
+                    </div>
+                </div>
+                
+                <div class="w-[355px] mt-[52px]">
+                    <div class="h-[384px]">
+                        <div class="h-[50%] flex">
+                            <div class="bg-yellow w-[50%]"></div>
+                            <div class="bg-gradient-to-t from-yellow to-[#FFEEBD] w-[50%]"></div>
+                        </div>
+                        <div class="bg-gradient-to-r from-yellow to-[#FFEEBD] h-[50%] "></div>
+                    </div>
+                    <div class="bg-linear text-start px-[29px] py-[32px]">
+                        <h2 class="text-4 text-darkblue mb-[9px]">Customizable performance management platform</h2>
+                        <p class="text-4 text-bgray">Fully Customizable performance management platform that suits...</p>
+                    </div>
+                </div>
+
+                <div class="mt-[-72px]">
+                    <img src="images/Graphics 10.png" alt="image" class="w-full object-cover object-center">
+                </div>
+            </div>
+        </section>
+        <!--Ending of the section 7-->
+    </main>
+
+    <footer class="bg-gray hidden lg:block relative" >
+        <div class="space-y-10 ml-[170px] pt-[60px]">
+            <h2 class="font-bold text-darkblue text-7">Performance</h2>
+            <p class="text-4 text-bgray w-[247px]">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+            <div class="flex gap-x-[30px]">
+                <ul class="space-y-4">
+                    <li class="text-bgray text-4">Enquiries</li>
+                    <li class="text-darkblue text-4">ux.rudrisha@gmail.com</li>
+                </ul>
+                <ul class="space-y-4">
+                    <li class="text-bgray text-4">Contact No.</li>
+                    <li class="text-darkblue text-4">00000-000-00</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bg-white w-[455px] absolute top-[-210px] right-[290px]">
+            <div class="flex  ">
+                <div class="border-b-[5px] border-green text-green w-full"></div>
+                <div class="border-b-[5px] border-yellow text-yellew w-full"></div>
+                <div class="border-b-[5px] border-red text-red w-full"></div>
+            </div>
+            <div class="px-[40px] py-[40px]">
+                <h2 class="font-bold text-darkblue text-[28px] mb-[19px]">Get Started in Minute</h2>
+                <p class="text-4 text-bgray w-[357px] mb-[32px]">Fully Customizable performance management platform that suits your culture. not the other way around</p>
+                <input type="text" placeholder="Email Address" name="email" class="bg-lightgray rounded py-[25px] pl-[33px] w-full mb-[32px] placeholder:text-black outline-none ">
+                <input type="text" placeholder="Message" name="Message" class="bg-lightgray rounded pl-[33px] w-full h-[179px] placeholder:text-black mb-[32px] outline-none placeholder:absolute placeholder:top-[23px]">
+                <button class="bg-gradient-to-l from-red1 to-red text-white py-[19px] lg:py-[21px] px-[21px] text-[14px] lg:rounded-lg">Contact us</button>
+            </div>
+            <i class="ri-chat-4-fill bg-green rounded-xl p-[24px] text-white relative right-[-500px] top-[-25px]"></i>
+        </div>
+        <div><h2 class="font-bold text-[32px] text-darkblue mt-[152px] pl-[778px]">Cheers!</h2></div>
+        <div class="mt-[41px] ml-[170px] flex justify-between">
+                <div class="flex gap-x-[49px] items-center">
+                    <a href="#" class="text-3 text-darkblue">Product Tour</a>
+                    <a href="#" class="text-3 text-darkblue">Customer</a>
+                    <a href="#" class="text-3 text-darkblue">About us</a>
+                    <a href="#" class="text-3 text-darkblue">Help</a>
+                </div>
+                <div class="space-x-[30px] mr-[248px]">
+                    <i class="ri-twitter-fill text-darkblue border-2 border-[#979797] p-[20px]"></i>
+                    <i class="ri-facebook-box-fill text-darkblue border-2 border-[#979797] p-[20px]"></i>
+                    <i class="ri-linkedin-box-fill text-darkblue border-2 border-[#979797] p-[20px]"></i>
+                </div>
+        </div>
+        <div><p class="text-4 text-bgray ml-[170px] mt-[67px] pb-5">© 2020 - Performance</p></div>
+        <div class="flex">
+            <div class="border-b-[5px] border-green text-green w-full"></div>
+            <div class="border-b-[5px] border-yellow text-yellew w-full"></div>
+            <div class="border-b-[5px] border-red text-red w-full"></div>
+        </div>
+    </footer>
+</body>
+</html>
